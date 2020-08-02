@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header,
+.section-1{
+    background-color: #E4EDF2;
+}
+
+nav a, 
+.p-2,
+.small-div{
+    font-size: 1rem;
+}
+.head-h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.color-purple{
+    color: #24116A;
+}
+
+.p-interns{
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding-top: 4%;
+}
+
+.sponsor{
+    width: 90%;
+}
+
+.small-div{
+    width: 70%;
+    font-weight: 500;
+    border-left: 2px solid #BDBDBD;
+}
+
+.card-1{
+    background-color: #ffff;
+    
+}
+.quote{
+    font-size: x-large;
+    color: #C6E2FF;
+}
+
+@media (min-width: 768px){
+    .small-div{
+        width: 19%;
+       
+    }
+} 
