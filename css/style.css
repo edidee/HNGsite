@@ -8,7 +8,8 @@ body{
 }
 
 .index-header,
-.section-1
+.section-1,
+.internship-works
 {
     background-color: #E4EDF2;
 }
@@ -83,15 +84,28 @@ footer{
 
 .talent-div{
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
-    width: 100%;
-    display: flex;
     
 
 }
-.talent-div p{
+.about-div p{
     font-weight: 600;
     font-size: 1.3rem;
     line-height: 1.2;
+}
+
+.about-div{
+    width: 97%;
+    display: flex;
+}
+
+.internship-works{
+
+}
+
+.intern-p1{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #000000;
 }
 
 @media (min-width: 768px){
@@ -100,7 +114,7 @@ footer{
        
     }
 
-    .talent-div p{
+    .about-div p{
         font-size: 1.8rem;
         line-height: 1.5;
     }
