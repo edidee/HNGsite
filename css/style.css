@@ -7,14 +7,12 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header,
-.section-1{
+.index-header,
+.section-1
+{
     background-color: #E4EDF2;
 }
 
-.section-1{
-    /* height: 100vh; */
-}
 nav a, 
 .p-2,
 .small-div{
@@ -83,3 +81,10 @@ footer{
         width: 25%;
     }
 } 
+
+/* about style  */
+
+.about-header{
+    background: #E4E4F2;
+    border-radius: 10px;
+}
