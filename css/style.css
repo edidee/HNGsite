@@ -7,6 +7,9 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+p{
+    margin-bottom: 0rem;
+}
 .index-header,
 .section-1,
 .internship-works
@@ -76,17 +79,18 @@ footer{
 
 
 /* about style  */
-
-.about-header{
+.about-header,
+.intern-head{
     background: #E4E4F2;
+}
+.about-header{
     border-radius: 10px;
 }
 
 .talent-div{
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
-    
-
 }
+
 .about-div p{
     font-weight: 600;
     font-size: 1.3rem;
@@ -98,14 +102,35 @@ footer{
     display: flex;
 }
 
-.internship-works{
-
-}
-
 .intern-p1{
     font-size: 1.3rem;
     font-weight: 500;
     color: #000000;
+}
+
+/* interns style */
+
+.intern-head{
+    position: relative;
+    height: 45vh;
+}
+
+.intern-img1{
+    position: absolute;
+    left: 4rem;
+    top: 13rem;
+}
+
+.intern-img2{
+    position: absolute;
+    left: 53rem;
+    top: 2rem;
+}
+.intern-img3{
+    position: absolute;
+    left: 51rem;
+    top: 17rem;
+
 }
 
 @media (min-width: 768px){
