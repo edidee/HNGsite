@@ -12,7 +12,8 @@ p{
 }
 .index-header,
 .section-1,
-.internship-works
+.internship-works,
+.intern-companies
 {
     background-color: #E4EDF2;
 }
@@ -140,6 +141,84 @@ footer{
 
 }
 
+.intern-companies{
+    width: 90%;
+    margin-top: 10%;
+}
+
+.intern-companies input{
+    border: none;
+}
+
+/*support style */
+
+.support-2, .become-1{
+    display: none;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.contribute{
+    height: 30vh;
+    background: #E4EDF2;
+    margin: 0 auto;
+
+}
+
+.earn{
+    font-size: 16px;
+}
+.text-purple{
+    color: #333CC1;
+}
+
+.card{
+    box-shadow: 0px 0px 50px rgba(22, 82, 240, 0.05);
+}
+.card-img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.btn-color{
+    background-color:  #1652F0;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+}
+.btn{
+    border: 2px solid #1652F0 ;
+
+}
+.btn:hover{
+    background-color:  #1652F0;
+    color: #fff;
+}
+
+.sponsors{
+    background-color: #E4EDF2;
+}
+
+/* become-intern style */
+
+.h1-color{
+    color: #24116A;
+}
+
+.card-p{
+    font-size: 16px;
+}
+
+.tracks{
+    background: #FFF8F8;
+}
+
 @media (min-width: 768px){
     .small-div{
         width: 19%;
@@ -167,6 +246,10 @@ footer{
     .intern-text{
         left: 21%;
         top: 30%;
+    }
+
+    .support-2, .become-1{
+        display: block;
     }
 
     .footer-div{
